@@ -1,0 +1,7 @@
+nome = str(input('Qual seu nome? '))
+qntdLetras = nome.replace(' ', '')
+nomeSeparado = nome.split()
+print('O nome com todas as letras maiúsculas fica {}.'.format(nome.upper()))
+print('O nome com todas as letras minúsculas fica {}.'.format(nome.lower()))
+print('O nome tem ao todo {} letras.'.format(len(qntdLetras)))
+print('O primeiro nome tem {} letras.'.format(len(nomeSeparado[0])))
